@@ -1,0 +1,2 @@
+FUNKCJA KOPIUJĄCA PO 1 ELEMENCIE: Czas wykonywania funkcji: 0.016134 s
+FUNKCJA KOPIUJĄCA PO 1024 ELEMENTY: Czas wykonywania funkcji: 0.008323 s
