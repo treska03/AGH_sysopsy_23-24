@@ -1,0 +1,5 @@
+        WYWOŁANIE                    CZAS DZIAŁANIA
+./build/calc 0.000000001 10                 1s
+./build/calc 0.000000001 1                  3s
+./build/calc 0.00000000001 1000             49s
+./build/calc 0.00000000001 1                ??
