@@ -95,11 +95,11 @@ int main() {
   }
   
 
-  if(!mq_close(server_mq)) {
+  if(mq_close(server_mq)) {
     printf("Closing mqueue unsuccessful :(\n");
   }
 
-  if(!mq_unlink(SERVER_QUEUE_NAME)) {
+  if(mq_unlink(SERVER_QUEUE_NAME)) {
     printf("Deleting mqueue unsuccessful :(\n");
     printf("%s\n", strerror(errno));
   }
